@@ -28,9 +28,7 @@ import Order from "./pages/Orders/Order.jsx";
 import UserOrder from "./pages/User/UserOrder.jsx";
 import OrderList from "./pages/Admin/OrderList.jsx";
 import AdminDashboard from "./pages/Admin/AdminDashboard.jsx";
-import { disableReactDevTools } from "@fvilers/disable-react-devtools";
 
-if (process.env.NODE_ENV === "production") disableReactDevTools();
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
