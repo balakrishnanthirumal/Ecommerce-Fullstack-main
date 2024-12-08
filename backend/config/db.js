@@ -7,7 +7,7 @@ const connectDB = async () => {
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 30000, // 30 seconds
 });
-);
+
     console.log("Succesfully connected the mongoDB 👌");
   } catch (error) {
     console.log(`ERROR: ${error.message}`);
