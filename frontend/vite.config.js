@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://balexstore-backend.onrender.com",
-      "/uploads/": "https://balexstore-backend.onrender.com",
+      "/api/": "https://balexstore-backend-eaq7.onrender.com",
+      "/uploads/": "https://balexstore-backend-eaq7.onrender.com",
     },
   },
 });
